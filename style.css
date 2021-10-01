@@ -79,6 +79,22 @@ body {
   display: grid;
 }
 
+.info__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info__details {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info__details__item {
+  display: flex;
+  align-content: center;
+}
+
 @media (min-width: 640px) {
   .banner {
     grid-template: 200px 400px / repeat(6, 1fr);
